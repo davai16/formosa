@@ -1,3 +1,30 @@
+@media(max-width: 767px) {
+    header {
+        margin-top: 120px;
+    }
+}
+
+@media(min-width: 768px) {
+    header .intro-text .intro-lead-in {
+        font-size: 62px;
+        font-style: normal;
+    }
+
+    #examine .portfolio-item.text-center {
+        height: 250px
+    }
+
+    .navbar-default.navbar-shrink {
+        background-color: transparent;
+    }
+}
+
+@media(min-width: 992px) {
+    #examine .portfolio-item.text-center {
+        height: 310px
+    }
+}
+
 header .intro-text .intro-heading {
     font-size: 28px;
 }
@@ -27,12 +54,6 @@ header .intro-text .intro-heading {
 
 .brand_logo {
     width: 120px;
-}
-
-@media (min-width: 768px) {
-    .navbar-default.navbar-shrink {
-        background-color: transparent;
-    }
 }
 
 #footer {
@@ -135,23 +156,6 @@ header .intro-text .intro-heading {
 
 #examine .portfolio-item.text-center {
     height: 235px
-}
-
-@media(min-width: 768px) {
-    header .intro-text .intro-lead-in {
-        font-size: 62px;
-        font-style: normal;
-    }
-
-    #examine .portfolio-item.text-center {
-        height: 250px
-    }
-}
-
-@media(min-width: 992px) {
-    #examine .portfolio-item.text-center {
-        height: 310px
-    }
 }
 
 .examine-more {
