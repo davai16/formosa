@@ -161,3 +161,28 @@ header .intro-text .intro-heading {
 .examine-more {
     color: #666;
 }
+
+.tab-list {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 2.5em;
+}
+
+.tab-list > li {
+    background: peachpuff;
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: .1em;
+    width: 72px;
+}
+
+.tab-content {
+    border-color: pink;
+    border-style: double;
+    border-width: 5px;
+    border-radius: 20px;
+    margin-bottom: 15px;
+    padding: 3em 10px 0 10px;
+}

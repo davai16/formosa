@@ -16,7 +16,6 @@
               <ul class="tab-list">
                 <li class="fa fa-info-circle fa-4x" href="#portfolioModal{{ .modalID }}Info" role="tab" data-toggle="tab"></li>
                 <li class="fa fa-flask fa-4x" href="#portfolioModal{{ .modalID }}Flask" role="tab" data-toggle="tab"></li>
-                <li class="fa fa-newspaper-o fa-4x" href="#portfolioModal{{ .modalID }}Examine" role="tab" data-toggle="tab"></li>
                 <li class="fa fa-shopping-bag fa-4x" href="#portfolioModal{{ .modalID }}Shopping" role="tab" data-toggle="tab"></li>
               </ul>
               <div class="tab-content">
@@ -30,11 +29,6 @@
                 <div class="tab-pane fade" id="portfolioModal{{ .modalID }}Flask">
                   {{ if .flask }}
                   {{ partial .flask .}}
-                  {{ end }}
-                </div>
-                <div class="tab-pane fade" id="portfolioModal{{ .modalID }}Examine">
-                  {{ range .examine }}
-                  <p><a href="{{ .link }}" target="_blank">{{ .title | markdownify }}</a></p>
                   {{ end }}
                 </div>
                 <div class="tab-pane fade" id="portfolioModal{{ .modalID }}Shopping">
