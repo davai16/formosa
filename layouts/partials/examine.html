@@ -4,6 +4,7 @@
     <div class="row">
       <div class="col-lg-12 text-center">
         <h2 class="section-heading">{{ with .Site.Params.examine.title }}{{ . | markdownify }}{{ end }}</h2>
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.examine.subtitle }}{{ . | markdownify }}{{ end }}</h3>
       </div>
     </div>
     <div class="row">
@@ -24,6 +25,44 @@
       <div class="examine-more text-right">
         <p>...等</p>
       </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.examine.subtitle2 }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Site.Data.patents }}
+      <div class="col-md-2 col-sm-4 col-xs-6 portfolio-item text-center col-centered">
+        <a href="img/examines/{{ .link }}" target="_blank">
+          <div>
+            <img src="img/examines/thumbnail/{{ .thumbnail }}"/>
+            <div class="portfolio-caption">
+              <h4>{{ .title }}</h4>
+            </div>
+          </div>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+    <div class="row">
+      <div class="col-lg-12 text-center">
+        <h3 class="section-subheading text-muted">{{ with .Site.Params.examine.subtitle3 }}{{ . | markdownify }}{{ end }}</h3>
+      </div>
+    </div>
+    <div class="row">
+      {{ range .Site.Data.approve }}
+      <div class="col-md-2 col-sm-4 col-xs-6 portfolio-item text-center col-centered">
+        <a href="img/examines/{{ .link }}" target="_blank">
+          <div>
+            <img src="img/examines/thumbnail/{{ .thumbnail }}"/>
+          </div>
+          <div class="portfolio-caption">
+            <h4>{{ .title }}</h4>
+          </div>
+        </a>
+      </div>
+      {{ end }}
     </div>
   </div>
 </section>

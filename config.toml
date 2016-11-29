@@ -83,7 +83,9 @@ img="logos/fb.jpg"
 
 [params.examine]
 enable = true
-title = "檢驗 & 認證"
+title = "認證專區"
+subtitle = "檢驗 & 認證"
+subtitle2 = "專利"
 buttonText = "認證專區"
 
 

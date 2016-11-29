@@ -116,7 +116,7 @@ header .intro-text .intro-heading {
     text-shadow: 0 2px 2px #999;
 }
 
-#about {
+#about,#examine {
     background: url(../img/about/bg.jpg) center top repeat;
 }
 
@@ -131,6 +131,17 @@ header .intro-text .intro-heading {
 .about_line {
     border-bottom: solid 5px #999;
     line-height: 2;
+}
+
+.long-about {
+    margin-bottom: 75px;
+    color: #666;
+    font-size: 16px;
+}
+
+.long-about strong {
+    font-size: 18px;
+    text-shadow: 0px 0px 1px;
 }
 
 .intro_line {
@@ -197,4 +208,9 @@ header .intro-text .intro-heading {
     border-radius: 20px;
     margin-bottom: 15px;
     padding: 3em 10px 0 10px;
+}
+
+.col-centered {
+    float: none;
+    margin: 0 auto;
 }
