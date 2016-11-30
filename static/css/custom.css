@@ -107,7 +107,7 @@ header .intro-text .intro-heading {
 }
 
 .modal-body .tab-list .fa:hover {
-    background: #A6F9FD;
+    background: ghostwhite;
     cursor: pointer;
 }
 
@@ -186,17 +186,18 @@ header .intro-text .intro-heading {
 }
 
 .tab-list {
+    background: peachpuff;    
+    border: 2px solid aqua;
+    border-radius: 15px;
     display: inline-block;
     margin: 0;
-    padding: 0;
+    padding: .1em;
     position: relative;
     top: 2.5em;
 }
 
 .tab-list > li {
-    background: peachpuff;
-    border: 2px solid aqua;
-    border-radius: 10px;
+    border-radius: 15px;
     padding: .1em;
     width: 72px;
 }
