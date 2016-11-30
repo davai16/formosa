@@ -120,7 +120,7 @@ header .intro-text .intro-heading {
     background: url(../img/about/bg.jpg) center top repeat;
 }
 
-#portfolio {
+#portfolio,#contactus {
     background: url(../img/portfolio/bg.jpg) center top repeat;
 }
 
@@ -213,4 +213,9 @@ header .intro-text .intro-heading {
 .col-centered {
     float: none;
     margin: 0 auto;
+}
+
+#contactus .form-group p,#contactus .form-group label {
+    font-size: 2em;
+    line-height: 1.7em;
 }

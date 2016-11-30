@@ -3,6 +3,7 @@ languageCode = "zh-tw"
 baseurl = "http://127.0.0.1:1313/"
 
 [params]
+email = ""
 custom_css = ["css/custom.css"]
 
 [params.hero]
@@ -88,6 +89,32 @@ subtitle = "檢驗 & 認證"
 subtitle2 = "專利"
 buttonText = "認證專區"
 
+[params.contact]
+enable = true
+title = "聯絡我們"
+
+[params.question]
+enable = true
+title = "問題諮詢"
+buttonText = "送出"
+#actionPrefix = "//formspree.io/"
+actionPrefix = ""
+
+[params.question.form.name]
+text = "稱呼"
+warning = "請填寫您的稱呼"
+
+[params.question.form.email]
+text = "電子郵件"
+warning = "請填寫您的電子郵件"
+
+[params.question.form.phone]
+text = "手機號碼"
+warning = "請填寫您的手機號馬"
+
+[params.question.form.message]
+text = "問題內容"
+warning = "請填寫您的問題內容，我們會儘快為您解答"
 
 [params.footer]
 enable = true
@@ -100,5 +127,7 @@ about = "延革"
 introduction = "公司簡介"
 portfolio = "產品"
 team = "成員"
-examine = "認證專區"
+examine = "專利 & 認證"
+contact = "聯絡我們"
+question = "問題諮詢"
 links = "額外連結"
