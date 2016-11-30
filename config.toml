@@ -96,7 +96,7 @@ title = "聯絡我們"
 [params.question]
 enable = true
 title = "問題諮詢"
-buttonText = "送出"
+buttontext = "送出"
 #actionPrefix = "//formspree.io/"
 actionPrefix = ""
 
