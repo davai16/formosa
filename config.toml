@@ -119,6 +119,7 @@ warning = "請填寫您的問題內容，我們會儘快為您解答"
 [params.footer]
 enable = true
 title = "額外連結"
+copyright = "福爾摩沙牛樟股份有限公司"
 
 [params.navigation]
 brand_logo = "ACTformosa.png"
