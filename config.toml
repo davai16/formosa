@@ -8,11 +8,15 @@ email = ""
 description = "福爾摩沙牛樟芝是整合7間優質公司的公品牌,提供通過SGS檢驗及90天毒理實驗的高品質產品"
 keywords = "台灣,福爾摩沙,牛樟芝,Antrodia cinnamomea,公品牌,毒理實驗,SGS,備查,子實體,菌絲體"
 custom_css = ["css/custom.css"]
+img = "img/header-bg.jpg"
 
 [params.hero]
 title = "福爾摩沙牛樟 ACTformosa"
 subtitle = "<i>最專業牛樟芝團隊監督下聯合推出<em>牛樟芝公品牌</em></i>"
 buttonText = "關於我們"
+
+[params.og]
+app_id = "actformosa"
 
 [params.about]
 enable = true
