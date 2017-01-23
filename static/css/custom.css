@@ -9,7 +9,7 @@
 }
 
 @media(min-width: 768px) {
-    header .intro-text .intro-lead-in {
+    header .intro-text .intro-lead-in h1 {
         font-size: 62px;
         font-style: normal;
     }
@@ -26,7 +26,7 @@
         position: absolute;
     }
 
-    .intro-lead-in {
+    .intro-lead-in h1 {
         line-height: 1em !important;
     }
 }

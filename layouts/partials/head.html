@@ -5,6 +5,7 @@
 <meta name="author" content="{{ with .Site.Params.name }}{{ . }}{{ end }}">
 <meta name="keywords" content="{{ with .Site.Params.keywords }}{{ . }}{{ end }}">
 {{ partial "seo/og.html" . }}
+{{ partial "seo/fb.html" . }}
 {{ .Hugo.Generator }}
 <title>{{ .Site.Title }}</title>
 {{ "<!-- Stylesheets -->" | safeHTML }}
